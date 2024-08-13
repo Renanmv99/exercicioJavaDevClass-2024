@@ -9,7 +9,7 @@ public class App {
         turma.adicionarAluno(new Aluno("Alberto", "103", 6));
         turma.adicionarAluno(new Aluno("Renato", "104", 9));
 
-        String matriculaProcurada = "";
+        String matriculaProcurada = "101";
         Aluno alunoEncontrado = turma.encontrarAlunoMatricula(matriculaProcurada); //encontrar aluno pela matrícula
 
         String matriculaParaRemover = "101";
